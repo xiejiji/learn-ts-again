@@ -1,0 +1,18 @@
+{
+  "name": "learn-ts-again",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xiejiji/learn-ts-again.git",
+  "author": "xiezhe <xiezhev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch src/ -e ts --exec ts-node ./src/index.ts",
+    "dev": "parcel ./index.html"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "parcel": "^2.8.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
